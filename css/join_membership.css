@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('italy-background.jpg'); /* 이탈리아 풍경 이미지 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container1{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #2add12;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* 회원가입 버튼 */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1fed25c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* 취소하기 버튼 */
+input[type="submit"]:hover {
+    background-color: #94eb84;
+}
+
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #fc2a2ac7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"]:hover {
+    background-color: #ff9494;
+}
+
+/* Footer css */
+footer {
+    background-color: #e72113;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(20, 247, 12);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}

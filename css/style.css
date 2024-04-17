@@ -1,0 +1,169 @@
+/* styles.css */
+
+/* Global Styles */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+/* Header Styles */
+header {
+    background-color: rgb(20, 247, 12);
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner Styles */
+#banner {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+}
+
+.banner-content p {
+    font-size: 18px;
+}
+
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.destination {
+    margin-bottom: 30px;
+}
+
+.destination img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer css */
+footer {
+    background-color: #e72113;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#grid_pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  
+   
+    .picture_container > img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
+      
+      .picture_container {
+        border: 5px black(2, 2, 2) dotted ;
+      }
+      
+     #pos1{
+       float: right;
+       color :#fff;
+       background-color:rgb(20, 247, 12);
+      font-size: 1.2em;
+      border:none;
+     }
+
+     .text-red {
+        color: red;
+    }
+    
+    .text-white {
+        color: rgb(209, 204, 204);
+    }
+    
+    .text-green {
+        color: green;
+    }
+
+    .bold-text {
+        font-weight: bold;
+    }
+    
+    #wrapper{
+        display:grid;
+        grid-template-columns:repeat(2,1fr );
+        grid-gap:1rem;
+      }
+
+    .card {
+        background-color:#fff;
+        box-shadow:0px 1px 5px #222;
+      }
+
+    .card > header {
+        font-size:1.5rem;
+        padding:0.5rem;
+        background-color: #fff;
+        color: black;
+        text-align:center
+      }
+
+      .card > p {
+        padding:0.5rem;
+        line-height:1.6em;
+      }
+
+      .card > figure > img {
+        width: 30vw;
+    height:20vw;
+    border-radius: 5px;
+      }

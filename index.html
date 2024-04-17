@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이탈리아 마법의 땅</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/minoProject.js"></script>
+
 </head>
 
 
@@ -25,6 +27,8 @@
 </header>
 
 <body>
+
+ 
 
     <section id="banner">
         <div class="banner-content">
@@ -54,9 +58,22 @@
         </p>
     </body>
 
-
-
-
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const email = document.querySelector("#contact h3 p");
+        const tel = document.querySelector("#contact h4 p");
+    
+        email.addEventListener("click", function() {
+            navigator.clipboard.writeText("hwasungnj@naver.com");
+            alert("이메일 주소가 클립보드에 복사되었습니다.");
+        });
+    
+        tel.addEventListener("click", function() {
+            navigator.clipboard.writeText("010-9011-1143");
+            alert("전화번호가 클립보드에 복사되었습니다.");
+        });
+    });
+</script>
 
     <footer id="contact">
         <div class="container">
